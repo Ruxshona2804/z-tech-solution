@@ -19,7 +19,8 @@ const Footer = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <footer className="bg-[#242B35] text-[#A8B3C4] h-[950px] py-16">
+        <footer  data-aos="fade-up"
+        data-aos-duration="3000" className="bg-[#242B35] text-[#A8B3C4] h-[950px] py-16">
             <div className="container  h-[464px] space-y-12">
                 {/* Top section */}
                 <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-8">

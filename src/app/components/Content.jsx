@@ -24,7 +24,8 @@ const Content = () => {
             </div>
             <div className="flex flex-wrap gap-10 mt-5 p-4 mx-auto items-center justify-center">
                 {images.map((item, index) => (
-                    <div
+                    <div 
+                    data-aos="zoom-in-down"
                         key={index}
                         className=" bg-[Gray/gray-200]   rounded-[12px] w-[568px] h-[439px] border border-[#E0E4EA]  "
                     >

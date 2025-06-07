@@ -55,14 +55,18 @@ const Pricing = () => {
         <div className="flex   items-center  justify-between ">
       {plans.map((plan, idx) => (
         <div
+        data-aos={idx % 2 === 0 ? 'fade-right' : 'fade-left'}
+        data-aos-delay={idx * 150}
           key={idx}
-          className={` w-[430px]  h-[443px]  rounded-[16px] border border-[#E0E4EA]  ${
+          className={` w-[430px]  h-[443px]  rounded-[16px] border border-[#E0E4EA] transition-all duration-300 hover:shadow-xl hover:-translate-y-1  ${
             plan.type === "popular"
               ? "bg-violet-50 border-violet-400 shadow-lg scale-105"
               : "bg-white border-[bg-violet]"
           } p-6 text-center transition-all duration-300`}
         >
-          <div className="flex  justify-between  items-center mb-4">
+          <div
+          data-aos="zoom-in" className="flex  justify-between  items-center mb-4">
+            
             <h2 className="text-[16px]   font-[500]">{plan.name}</h2>
             {plan.type === "popular" && (
               <span className="text-[12px] bg-violet text-white px-2 py-1 rounded-md">
@@ -75,6 +79,8 @@ const Pricing = () => {
           </h3>
           <p className="text-[14px] text-left text-gray-500 mb-4">{plan.description}</p>
           <button
+           
+           
             className={`w-[362px] h-[52px] border border-[#DFE1E6] py-2 rounded-lg font-medium ${
               plan.type === "popular"
                 ? "bg-[#4236C4] text-white"

@@ -38,7 +38,7 @@ const Hero = () => {
             {/* Hero Section */}
             <div className=' h-[900px] 
          flex flex-col items-center z-10'>
-                <div className='container  h-[320px] flex flex-col items-center justify-center  text-center '>
+                <div data-aos="fade-up" className='container  h-[320px] flex flex-col items-center justify-center  text-center '>
                     <h1 className=' h-[154px] mx-auto  leading-18 w-[1000px] text-[64px] font-[500]  '>Empowering Growth Through Digital Innovation </h1>
                     <p className=' w-[600px] mx-auto text-[18px] text-[#808897]'>Partner with us to craft innovative strategies and design solutions that drive
                         measurable results and elevate your brand to new heights.</p>

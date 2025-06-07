@@ -22,7 +22,7 @@
   height: 100vh;
 }
 .button {
-  background: linear-gradient(135deg, #4236C4, #4236C4); /* фиолетовый градиент */
+  background: linear-gradient(135deg, #4236C4, #4236C4); 
   color: white;
   cursor: pointer;
   position: relative;

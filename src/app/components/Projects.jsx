@@ -12,7 +12,8 @@ const Projects = () => {
                 <p className='text-[17px] font-[400] text-[#808897] '>Pizza ipsum dolor meat lovers buffalo. Rib fresh black NY rib mushrooms pan garlic pizza.</p>
             </div>
             <div className='flex flex-col gap-5 mt-13'>
-                <div className="card flex items-center justify-center gap-6 border h-[332px] rounded-[12px] border-[#E0E4EA]  ">
+                <div data-aos="fade-up"
+     data-aos-duration="3000" className="card flex items-center justify-center gap-8 border h-[332px] rounded-[12px] border-[#E0E4EA]  ">
                     <div className="relative w-[650px]    h-[305px] rounded-[12px] overflow-hidden">
                         <Image
                             src={sour}
@@ -33,7 +34,8 @@ const Projects = () => {
                         <button className=' border bg-violet w-[190px] h-[52px] rounded-[12px] text-[16px] font-[500] text-white'>Seek our project</button>
                     </div>
                 </div>
-                <div className="card flex items-center justify-center gap-8 border h-[332px] rounded-[12px] border-[#E0E4EA]  ">
+                <div data-aos="fade-up"
+     data-aos-duration="3000" className="card flex items-center justify-center gap-8 border h-[332px] rounded-[12px] border-[#E0E4EA]  ">
                     <div className="relative w-[650px] h-[305px] rounded-[12px] overflow-hidden ">
                         <Image
                             src={wedding}
@@ -54,7 +56,8 @@ const Projects = () => {
                         <button className=' border bg-violet w-[190px] h-[52px] rounded-[12px] text-[16px] font-[500] text-white'>Seek our project</button>
                     </div>
                 </div>
-                <div className="card flex items-center justify-center gap-8 border h-[332px] rounded-[12px] border-[#E0E4EA]  ">
+                <div data-aos="fade-up"
+     data-aos-duration="3000" className="card flex items-center justify-center gap-8 border h-[332px] rounded-[12px] border-[#E0E4EA]  ">
                     <div className="relative w-[650px]  h-[305px] rounded-[12px] overflow-hidden">
                         <Image
                             src={alibaba}

@@ -5,7 +5,7 @@ import React, { useState } from "react";
 const ContactForm = () => {
     const [text, setText] = useState("");
     return (
-        <div className='container h-[1114px]  '>
+        <div data-aos="zoom-in-down" className='container h-[1114px]  '>
             <div className=' h-[300px]   flex flex-col items-center justify-center text-center  '>
                 <button className='w-[97px] h-[29px] text-[14px] rounded-[24px] bg-violet button text-white'>Contact Us</button>
                 <h3 className='text-[52px] font-[500]'>Get in Touch with Us</h3>
