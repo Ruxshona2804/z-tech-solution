@@ -20,14 +20,14 @@ const Footer = () => {
 
     return (
     <div className='bg-[#242B35]'>
-            <footer data-aos="fade-up"
-            data-aos-duration="3000" className="  relative text-[#A8B3C4] md:h-[950px] h-[600px] pt-16">
-            <div className=" container h-[464px] space-y-12">
+            <footer 
+         className="  relative text-[#A8B3C4] md:h-[950px] h-[600px] pt-16 ">
+            <div className=" container h-[464px] ">
                 {/* Top section */}
-                <div className="md:flex justify-between items-start gap-8">
+                <div className="md:flex justify-between items-start  mb-5 gap-8">
                     <div>
                         <Image src={logofooter} alt="Z Tech Solutions" width={200} height={36} />
-                        <p className="mt-2 text-[16px] font-[400] w-[358px] md:w-full tracking-[0.3]">
+                        <p className="mt-2 text-[16px] font-[400] w-[350px] md:w-full tracking-[0.3]">
                             Partner with us to craft innovative strategies and design solutions that drive measurable results and elevate your brand to new heights.
                         </p>
                     </div>
