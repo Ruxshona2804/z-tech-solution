@@ -8,7 +8,7 @@ import Image from 'next/image'
 
 const Client = () => {
     return (
-        <div className=' container md:h-[930px] h-[1988px] border  '>
+        <div className=' container md:h-[930px] h-[1988px]   '>
             <div className=' h-[300px]   flex flex-col items-center justify-center text-center  '>
                 <button className='w-[97px] h-[29px] text-[14px] rounded-[24px] bg-violet button text-white'>Our Rates</button>
                 <h3 className='text-[52px] font-[500]'>Our Client Experiences</h3>

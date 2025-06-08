@@ -46,13 +46,13 @@ const plans = [
 
 const Pricing = () => {
   return (
-    <div className='container  md:h-[960px] h-[1700px]  '>
-      <div className=' md:h-[300px] h-[163px] border    flex flex-col items-center justify-center text-center   '>
+    <div className='container w-[90%] md:h-[960px] h-[1700px]  '>
+      <div className=' md:h-[300px] h-[163px]     flex flex-col items-center justify-center text-center   '>
         <button className='w-[97px] h-[29px] text-[14px] rounded-[24px]  bg-violet button text-white'>Our Pricing</button>
         <h3 className='md:text-[52px] text-[48px] font-[500]'>View Our Pricing</h3>
         <p className='md:text-[17px] text-[16px] font-[400] text-[#808897]  '>Pizza ipsum dolor meat lovers buffalo. Rib fresh black NY rib mushrooms pan garlic pizza.</p>
       </div>
-      <div className="  md:flex border mt-10 md:mt-0  items-center  justify-between ">
+      <div className="  md:flex  mt-10 md:mt-0  items-center  justify-between ">
         {plans.map((plan, idx) => (
           <div
             data-aos={idx % 2 === 0 ? 'fade-right' : 'fade-left'}

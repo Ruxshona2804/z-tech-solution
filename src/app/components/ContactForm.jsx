@@ -5,7 +5,7 @@ import bg_hero from '../../../public/images/bg-hero.svg'
 const ContactForm = () => {
     const [text, setText] = useState("");
     return (
-        <div data-aos="zoom-in-down" className='container md:h-[1114px]  border h-[1450px] '>
+        <div data-aos="zoom-in-down" className='container md:h-[1114px]  w-[90%] h-[1450px] '>
             <div className=' h-[300px]   flex flex-col items-center justify-center text-center  '>
                 <button className='w-[97px] h-[29px] text-[14px] rounded-[24px] bg-violet button text-white'>Contact Us</button>
                 <h3 className='md:text-[52px] text-[48px] font-[500]'>Get in Touch with Us</h3>
@@ -97,10 +97,10 @@ const ContactForm = () => {
                     <p className="mt-2 mb-4 text-[16px] text-[#EDEDED] leading-6">Ready to achieve more? Connect with us and start your digital business journey.</p>
 
                     <div className="flex gap-2 flex-col ">
-                        <button className="w-[280px] h-[52px] rounded-[12px] bg-white/10 text-white text-[16px] font-[500] hover:bg-white hover:text-black transition-all duration-300">
+                        <button className="w-[280px] h-[52px] rounded-[12px] bg-white/10 text-white text-[16px] font-[500] active:bg-white active:text-black transition-all duration-300">
                             See Our Work
                         </button>
-                        <button className="w-[280px] h-[52px] rounded-[12px] bg-white/10 text-white text-[16px] font-[500] hover:bg-white hover:text-black transition-all duration-300">
+                        <button className="w-[280px] h-[52px] rounded-[12px] bg-white/10 text-white text-[16px] font-[500] active:bg-white active:text-black transition-all duration-300">
                             Get in Touch
                         </button>
                     </div>

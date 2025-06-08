@@ -16,7 +16,7 @@ const Content = () => {
     ]
 
     return (
-        <div className='container md:h-[1290px] h-[2474px] my-5 border '>
+        <div className='container md:h-[1290px] h-[2474px] w-[90%] '>
             <div className='text-center md:py-6 mt-10'>
                 <button className=' w-[97px] h-[29px] text-[14px] rounded-[24px] button bg-violet text-white '>Work Chain</button>
                 <h3 className=' text-[48px] md:text-[52px] font-medium leading-13 mt-3 md:mt-0 ' >Our Work Process</h3>

@@ -54,8 +54,8 @@ const Hero = () => {
     <div id='hero' style={{ backgroundImage: `url(${bg_hero.src})` }} className='bg-cover bg-no-repeat bg-center'>
       <Navbar />
       <div className='h-auto  md:h-[900px] flex flex-col items-center z-10'>
-        {/* Заголовок */}
-        <div data-aos="fade-up" className='container w-[90%] border md:h-[320px] flex flex-col items-center justify-center text-center'>
+       
+        <div data-aos="fade-up" className='container w-[90%]  md:h-[320px] flex flex-col items-center justify-center text-center'>
           <h1 className='h-auto w-[358px] md:w-[1000px] text-[36px] md:text-[64px] font-[500] tracking-normal leading-tight'>
             Empowering Growth Through Digital Innovation
           </h1>
@@ -65,7 +65,7 @@ const Hero = () => {
           </p>
         </div>
 
-        {/* Карусель — Десктоп */}
+       
         <section ref={desktopRef} className='hidden md:block overflow-hidden mt-12'>
           <div className="flex w-max gap-12 desktop-slide">
             {[...images, ...images, ...images].map((img, index) => (
@@ -82,7 +82,7 @@ const Hero = () => {
           </div>
         </section>
 
-        {/* Карусель — Мобайл */}
+        {/* Мобильная версия слайдера */}
         <section ref={mobileRef} className='block md:hidden overflow-hidden w-[90%] md:w-full h-[358px] mt-8'>
           <div className="flex w-max gap-4 mobile-slide">
             {[...responsiveImages, ...responsiveImages, ...responsiveImages].map((img, index) => (

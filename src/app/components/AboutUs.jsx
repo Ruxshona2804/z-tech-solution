@@ -3,8 +3,7 @@ import about from '../../../public/images/about/about.svg'
 import Image from 'next/image'
 const AboutUs = () => {
   return (
-    <div id='about' className='container border w-[90%] md:h-[660px] h-[821px] flex flex-col md:flex-row items-center justify-between'>
-      {/* Картинка: сначала на мобилке, потом справа на десктопе */}
+    <div id='about' className='container  w-[90%] md:h-[660px] h-[821px] flex flex-col md:flex-row items-center justify-between'>
       <div className='order-1 md:order-2 mb-6 md:mb-0' data-aos="fade-left">
         <Image
           src={about}
@@ -14,8 +13,6 @@ const AboutUs = () => {
           className='rounded-[24px] md:w-[546px] w-[358px] object-cover h-[420px]'
         />
       </div>
-
-      {/* Текст: сначала на десктопе, потом под картинкой на мобилке */}
       <div className='order-2 md:order-1  md:text-left' data-aos="fade-right">
         <button className='text-[14px] button text-white bg-violet rounded-[24px] w-[83px] h-[29px]'>
           About Us

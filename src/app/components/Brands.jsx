@@ -19,7 +19,7 @@ const Brands = () => {
     const ctx = gsap.context(() => {
       gsap.to('.brands-track', {
         xPercent: -50,
-        duration: 30, // медленно и плавно
+        duration: 30, 
         repeat: -1,
         ease: 'none',
       })
@@ -29,7 +29,7 @@ const Brands = () => {
   }, [])
 
   return (
-    <div className='container  w-[90%] border h-[280px] mx-auto md:h-[200px] flex flex-col justify-center items-center gap-8 overflow-hidden'>
+    <div className='container  w-[90%]  h-[280px] mx-auto md:h-[200px] flex flex-col justify-center items-center gap-8 overflow-hidden'>
       <p className='text-[20px] text-[#808897] font-[500]'>We're trusted by</p>
 
       <div ref={trackRef} className='w-full overflow-hidden'>

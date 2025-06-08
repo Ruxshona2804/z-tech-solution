@@ -10,7 +10,7 @@ import travel from '../../../public/images/responsive/travel.svg'
 
 const Projects = () => {
     return (
-        <div id='projects'  className='container md:h-[1376px] h-[2750px] border    '>
+        <div id='projects'  className='container md:h-[1376px] h-[2750px]     '>
             <div className=' md:h-[162px]  flex flex-col items-center justify-center text-center  '>
                 <button className='w-[97px] mb-6 md:mb-0 h-[29px] text-[14px] rounded-[24px]  button bg-violet text-white'>Out Projects</button>
                 <h3 className='text-[52px] leading-13 font-[500]'>View Our Projects</h3>
