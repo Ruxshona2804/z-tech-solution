@@ -6,12 +6,18 @@
   margin: 0 auto;
   width: 75%;
 }
+html {
+  scroll-behavior: smooth;
+}
 .container{
   max-width: 1440px;
   margin: 0 auto;
   width: 90%;
 }
-
+.container_mobile{
+width: 90%;
+border: 1px red;
+}
 .bg-violet {
   background-color: #4236C4;
 }
