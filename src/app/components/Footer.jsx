@@ -19,9 +19,10 @@ const Footer = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <footer data-aos="fade-up"
-            data-aos-duration="3000" className="bg-[#242B35] relative text-[#A8B3C4] md:h-[950px] h-[600px] py-16">
-            <div className="container   h-[464px] space-y-12">
+    <div className='bg-[#242B35]'>
+            <footer data-aos="fade-up"
+            data-aos-duration="3000" className="  relative text-[#A8B3C4] md:h-[950px] h-[600px] py-16">
+            <div className=" container h-[464px] space-y-12">
                 {/* Top section */}
                 <div className="md:flex justify-between items-start gap-8">
                     <div>
@@ -121,6 +122,7 @@ const Footer = () => {
             <div className="absolute md:hidden bottom-0 left-0 w-full h-[90px] bg-gradient-to-t from-white to-transparent"></div>
 
         </footer>
+    </div>
     );
 };
 

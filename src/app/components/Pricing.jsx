@@ -58,7 +58,7 @@ const Pricing = () => {
             data-aos={idx % 2 === 0 ? 'fade-right' : 'fade-left'}
             data-aos-delay={idx * 150}
             key={idx}
-            className={` md:w-[430px] w-[350px]  h-[443px] md:mt-0 shadow mt-7 rounded-[16px] border border-[#E0E4EA] transition-all duration-300 hover:shadow-xl hover:-translate-y-1  ${plan.type === "popular"
+            className={` md:w-[430px] w-[350px]   h-[443px] md:mt-0 shadow mt-7 rounded-[16px] border border-[#E0E4EA] transition-all duration-300 hover:shadow-xl hover:-translate-y-1  ${plan.type === "popular"
                 ? "bg-violet-50 border-violet-400 shadow-lg md:scale-105"
                 : "bg-white border-[bg-violet]"
               } p-6 text-center transition-all duration-300`}
@@ -82,7 +82,7 @@ const Pricing = () => {
 
               className={`md:w-[362px] w-[294px] h-[52px] border border-[#DFE1E6] py-2 rounded-lg font-medium ${plan.type === "popular"
                   ? "bg-[#4236C4] text-white"
-                  : "bg-white hover:bg-[#4236C4] hover:text-white "
+                  : "bg-white active:bg-[#4236C4] active:text-white "
                 }`}
             >
               {plan.button}

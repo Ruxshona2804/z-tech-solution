@@ -20,7 +20,7 @@ const Content = () => {
             <div className='text-center md:py-6 mt-10'>
                 <button className=' w-[97px] h-[29px] text-[14px] rounded-[24px] button bg-violet text-white '>Work Chain</button>
                 <h3 className=' text-[48px] md:text-[52px] font-medium leading-13 mt-3 md:mt-0 ' >Our Work Process</h3>
-                <p className='text-[16px]  font-[400] text-[#808897] mb-10 border md:mb-0 '>Pizza ipsum dolor meat lovers buffalo. Rib fresh black NY rib mushrooms pan garlic pizza.</p>
+                <p className='text-[16px]  font-[400] text-[#808897] mb-10  md:mb-0 '>Pizza ipsum dolor meat lovers buffalo. Rib fresh black NY rib mushrooms pan garlic pizza.</p>
             </div>
             <div className="flex flex-wrap md:gap-10 gap-12 mt-5    mx-auto items-center justify-center">
                 {images.map((item, index) => (

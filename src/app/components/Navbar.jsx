@@ -16,7 +16,7 @@ const Navbar = () => {
                 </div>
                 <ul className='hidden md:flex items-center justify-center gap-15 text-[#626B75] text-[18px] mr-30'>
                     <Link scroll={true} href={'/about'}><li>About Us</li></Link>
-                     <Link scroll={true} href={'/hero'}><li>Rates</li></Link>
+                     <Link scroll={true} href={'/rates'}><li>Rates</li></Link>
                      <Link scroll={true} href={'/projects'}><li>Projects</li></Link>
                      <Link scroll={true} href={'/contacts'}><li>Contacts</li></Link>
                 </ul>

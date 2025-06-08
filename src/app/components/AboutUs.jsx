@@ -24,10 +24,10 @@ const AboutUs = () => {
           We're passionate about driving innovation, elevating brands, and delivering measurable success in the digital world
         </p>
         <div className='flex  gap-3 items-center md:items-start'>
-          <button className='md:w-[130px] w-[171px] h-[52px] rounded-[12px] hover:bg-[#4236C4] border-[#A8B3C4] hover:text-white border'>
+          <button className='md:w-[130px] w-[171px] h-[52px] rounded-[12px] hover:bg-[#4236C4] border-[#A8B3C4] active:text-white border'>
             Work with us!
           </button>
-          <button className='md:w-[130px] w-[171px] h-[52px] rounded-[12px] hover:bg-[#4236C4] border-[#A8B3C4] hover:text-white border'>
+          <button className='md:w-[130px] w-[171px] h-[52px] rounded-[12px] hover:bg-[#4236C4] border-[#A8B3C4] active:text-white border'>
             See our pricing
           </button>
         </div>
