@@ -51,7 +51,7 @@ const Hero = () => {
    
 
   return (
-    <div id='hero' style={{ backgroundImage: `url(${bg_hero.src})` }} className='bg-cover bg-no-repeat bg-center'>
+    <div id='hero' style={{ backgroundImage: `url(${bg_hero.src})` }} className='bg-cover  bg-no-repeat bg-center'>
       <Navbar />
       <div className='h-auto  md:h-[900px] flex flex-col items-center z-10'>
        

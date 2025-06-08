@@ -21,7 +21,7 @@ const Footer = () => {
     return (
     <div className='bg-[#242B35]'>
             <footer data-aos="fade-up"
-            data-aos-duration="3000" className="  relative text-[#A8B3C4] md:h-[950px] h-[600px] py-16">
+            data-aos-duration="3000" className="  relative text-[#A8B3C4] md:h-[950px] h-[600px] pt-16">
             <div className=" container h-[464px] space-y-12">
                 {/* Top section */}
                 <div className="md:flex justify-between items-start gap-8">
