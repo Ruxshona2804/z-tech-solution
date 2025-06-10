@@ -16,28 +16,38 @@ const Content = () => {
     ]
 
     return (
-        <div className='container md:h-[1290px] h-[2474px] w-[90%] '>
-            <div className='text-center md:py-6 mt-10'>
-                <button className=' w-[97px] h-[29px] text-[14px] rounded-[24px] button bg-violet text-white '>Work Chain</button>
-                <h3 className=' text-[48px] md:text-[52px] font-medium leading-13 mt-3 md:mt-0 ' >Our Work Process</h3>
-                <p className='text-[16px]  font-[400] text-[#808897] mb-10  md:mb-0 '>Pizza ipsum dolor meat lovers buffalo. Rib fresh black NY rib mushrooms pan garlic pizza.</p>
-            </div>
-            <div className="flex flex-wrap md:gap-10 gap-12 mt-5    mx-auto items-center justify-center">
-                {images.map((item, index) => (
-                    <div
-                        data-aos="zoom-in-down"
-                        key={index}
-                        className="  bg-[Gray/gray-200]   w-[358px] h-[490px] p-1 rounded-[12px] md:w-[568px] md:h-[445px] border border-[#E0E4EA]  "
-                    >
-                        <Image src={item.src} alt={item.alt} width={544} height={350} className='rounded-[6px] w-[358px] md:w-[550px] h-[350px]  mx-auto object-cover  ' />
-                        <div className='px-3 mt-2 md:mt-0 '>
-                            <h3 className=" text-[18px] font-[600]  my-2 md:h-[20px] ">{item.title}</h3>
-                            <p className=" h-[45px] md:h-[42px] text-[14px] text-[#808897] font-[400] ">{item.description}</p>
-                        </div>
-                    </div>
-                ))}
-            </div>
+        <div className='container   py-16'>
+        <div className='text-center mb-10'>
+          <button className='text-sm my-4  button text-white bg-violet rounded-[24px] xl:px-4 xl:py-1 px-6 py-2 mb-3'>Work Chain</button>
+          <h3 className='text-[48px] xl:text-[52px] font-[500] mt-3'>Our Work Process</h3>
+          <p className='text-base text-[#808897] max-w-xl mx-auto mt-3'>
+            Pizza ipsum dolor meat lovers buffalo. Rib fresh black NY rib mushrooms pan garlic pizza.
+          </p>
         </div>
+      
+        <div className="flex flex-wrap justify-center items-stretch gap-8 md:gap-10">
+          {images.map((item, index) => (
+            <div
+              data-aos="zoom-in-down"
+              key={index}
+              className="w-full max-w-[358px]  xl:max-w-xl bg-white p-2 rounded-[12px] border border-[#E0E4EA]"
+            >
+              <Image
+                src={item.src}
+                alt={item.alt}
+                width={550}
+                height={350}
+                className="rounded-[6px] w-full h-auto aspect-[12/10] object-cover"
+              />
+              <div className='px-3 py-2'>
+                <h3 className="text-lg font-semibold mb-1">{item.title}</h3>
+                <p className="text-sm text-[#808897]">{item.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      
     )
 }
 

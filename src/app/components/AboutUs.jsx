@@ -3,36 +3,35 @@ import about from '../../../public/images/about/about.svg'
 import Image from 'next/image'
 const AboutUs = () => {
   return (
-    <div id='about' className='container  w-[90%] md:h-[660px] h-[821px] flex flex-col md:flex-row items-center justify-between'>
+    <div id='about' className='container    xl:h-[660px] flex flex-col xl:flex-row items-center justify-between'>
       <div className='order-1 md:order-2 mb-6 md:mb-0' data-aos="fade-left">
         <Image
           src={about}
           alt='about'
-          width={546}
-          height={420}
-          className='rounded-[24px] md:w-[546px] w-[358px] object-cover h-[420px]'
+          className='rounded-[24px] w-full max-w-[546px] h-auto object-cover aspect-[4/3]'
         />
       </div>
-      <div className='order-2 md:order-1  md:text-left' data-aos="fade-right">
-        <button className='text-[14px] button text-white bg-violet rounded-[24px] w-[83px] h-[29px]'>
+      <div className='order-2 md:order-1 text-left' data-aos="fade-right">
+        <button className='text-sm my-4  button text-white bg-violet rounded-[24px] xl:px-4 xl:py-1 px-6 py-2 mb-3'>
           About Us
         </button>
-        <h2 className='md:w-[720px] md:mt-5 md:text-[52px] text-[48px] font-medium leading-[56px]'>
+        <h2 className='text-[48px] xl:text-[52px] font-[500] leading-tight max-w-[680px]'>
           Crafting Digital Excellence, One Brand at a Time
         </h2>
-        <p className='text-[#808897] md:text-[18px] text-[16px] font-[400] my-3 md:w-[702px]'>
+        <p className='text-[#808897] text-base xl:text-lg font-normal my-4 max-w-[680px]'>
           We're passionate about driving innovation, elevating brands, and delivering measurable success in the digital world
         </p>
-        <div className='flex  gap-3 items-center md:items-start'>
-          <button className='md:w-[130px] w-[171px] h-[52px] rounded-[12px] hover:bg-[#4236C4] border-[#A8B3C4] active:text-white border'>
+        <div className='flex  gap-4 justify-center xl:justify-start'>
+          <button className='px-10  py-3 rounded-[12px] border border-[#A8B3C4] hover:bg-[#4236C4] hover:text-white transition'>
             Work with us!
           </button>
-          <button className='md:w-[130px] w-[171px] h-[52px] rounded-[12px] hover:bg-[#4236C4] border-[#A8B3C4] active:text-white border'>
+          <button className='px-10  py-3 rounded-[12px] border border-[#A8B3C4] hover:bg-[#4236C4] hover:text-white transition'>
             See our pricing
           </button>
         </div>
       </div>
     </div>
+
 
   )
 }

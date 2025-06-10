@@ -8,18 +8,18 @@ import Image from 'next/image'
 
 const Client = () => {
     return (
-        <div id='rates' className=' container md:h-[930px] h-[1988px]   '>
+        <div id='rates' className='  container xl:h-[930px] h-[1988px]   '>
             <div className=' h-[300px]   flex flex-col items-center justify-center text-center  '>
-                <button className='w-[97px] h-[29px] text-[14px] rounded-[24px] bg-violet button text-white'>Our Rates</button>
+                <button className='text-sm my-4  button text-white bg-violet rounded-[24px] xl:px-4 xl:py-1 px-6 py-2 mb-3'>Our Rates</button>
                 <h3 className='text-[52px] font-[500]'>Our Client Experiences</h3>
                 <p className='text-[17px] font-[400] text-[#808897] '>Pizza ipsum dolor meat lovers buffalo. Rib fresh black NY rib mushrooms pan garlic pizza.</p>
             </div>
-            <div className=' grid md:grid-cols-3 grid-cols-1 items-center justify-center gap-3 '>
+            <div className=' grid xl:grid-cols-3 grid-cols-1 items-center justify-center gap-3 '>
                 <div data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000" className="card md:w-[445px]  md:h-[240px] w-[350px] h-[258px] border border-[#E0E4EA] p-5  rounded-[12px]  ">
-                    <p className=' md:text-[19px] text-[18px] font-[500] mb-2 tracking-[0.2]  '>Their expertise in UI/UX design transformed our digital presence. The new interface is seamless, intuitive, and has significantly improved user engagement.</p>
-                    <div className=' border-t  border-[#DFE1E6] md:w-[400px] w-[300px] mx-auto mt-5 '></div>
+                    data-aos-duration="2000" className="card   xl:max-h-[240px] max-h-[258px] border border-[#E0E4EA] p-5  rounded-[12px]  ">
+                    <p className=' xl:text-[19px] text-[18px] font-[500] mb-2 tracking-[0.2]  '>Their expertise in UI/UX design transformed our digital presence. The new interface is seamless, intuitive, and has significantly improved user engagement.</p>
+                    <div className=' border-t  border-[#DFE1E6] xl:w-[400px] w-[300px] mx-auto mt-5 '></div>
                     <div className=' flex mt-6 gap-3 '>
                         <Image src={emily} alt='emily' width={45} height={45} />
                         <div className='    '>
@@ -30,7 +30,7 @@ const Client = () => {
                 </div>
                 <div data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000" className="card md:w-[445px]  md:h-[240px] w-[350px] h-[258px] border border-[#E0E4EA] p-5  rounded-[12px]  ">
+                    data-aos-duration="2000" className="card   md:h-[240px]  h-[258px] border border-[#E0E4EA] p-5  rounded-[12px]  ">
                     <p className=' md:text-[19px] text-[18px] font-[500] mb-2 tracking-[0.2]  '>They understood our vision and executed it flawlessly. Our app’s performance and usability have improved dramatically, thanks to their strategic approach.</p>
                     <div className=' border-t  border-[#DFE1E6] md:w-[400px] w-[300px] mx-auto mt-5 '></div>
                     <div className=' flex mt-6 gap-3 '>
@@ -43,7 +43,7 @@ const Client = () => {
                 </div>
                 <div data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000" className="card md:w-[445px]  md:h-[240px] w-[350px] h-[258px] border border-[#E0E4EA] p-5  rounded-[12px]  ">
+                    data-aos-duration="2000" className="card   md:h-[240px]  h-[258px] border border-[#E0E4EA] p-5  rounded-[12px]  ">
                     <p className=' md:text-[19px] text-[18px] font-[500] mb-2 tracking-[0.2]  '>From branding to web development, their team delivered beyond our expectations. The attention to detail and innovative mindset set them apart and startegic approach.</p>
                     <div className=' border-t  border-[#DFE1E6] md:w-[400px] w-[300px] mx-auto mt-5 '></div>
                     <div className=' flex mt-6 gap-3 '>
@@ -56,7 +56,7 @@ const Client = () => {
                 </div>
                 <div data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000" className="card md:w-[445px]  md:h-[240px] w-[350px] h-[258px] border border-[#E0E4EA] p-5  rounded-[12px]  ">
+                    data-aos-duration="2000" className="card   md:h-[240px]  h-[258px] border border-[#E0E4EA] p-5  rounded-[12px]  ">
                     <p className=' md:text-[19px] text-[18px] font-[500] mb-2 tracking-[0.2]  '>Working with them was effortless. They communicated effectively, met deadlines, and delivered a product that exceeded our initial goals</p>
                     <div className=' border-t  border-[#DFE1E6] md:w-[400px] w-[300px] mx-auto mt-5 '></div>
                     <div className=' flex mt-6 gap-3 '>
@@ -70,7 +70,7 @@ const Client = () => {
                 </div>
                 <div data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000" className="card md:w-[445px]  md:h-[240px] w-[350px] h-[258px] border border-[#E0E4EA] p-5  rounded-[12px]  ">
+                    data-aos-duration="2000" className="card   md:h-[240px]  h-[258px] border border-[#E0E4EA] p-5  rounded-[12px]  ">
                     <p className=' md:text-[19px] text-[18px] font-[500] mb-2 tracking-[0.2]  '>They helped us launch a stunning and functional website that truly represents our brand. The design, speed, and responsiveness are just perfect!</p>
                     <div className=' border-t  border-[#DFE1E6] md:w-[400px] w-[300px] mx-auto mt-5 '></div>
                     <div className=' flex mt-6 gap-3 '>
@@ -83,7 +83,7 @@ const Client = () => {
                 </div>
                 <div data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000" className="card md:w-[445px]  md:h-[240px] w-[350px] h-[258px] border border-[#E0E4EA] p-5  rounded-[12px]  ">
+                    data-aos-duration="2000" className="card   md:h-[240px]  h-[258px] border border-[#E0E4EA] p-5  rounded-[12px]  ">
                     <p className=' md:text-[19px] text-[18px] font-[500] mb-2 tracking-[0.2]  '>They helped us launch a stunning and functional website that truly represents our brand. The design, speed, and responsiveness are just perfect!</p>
                     <div className=' border-t  border-[#DFE1E6] md:w-[400px] w-[300px] mx-auto mt-5 '></div>
                     <div className=' flex mt-6 gap-3 '>

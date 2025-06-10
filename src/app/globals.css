@@ -1,11 +1,5 @@
 @import "tailwindcss";
 
-
-.container-navbar{
-  max-width: 1440px;
-  margin: 0 auto;
-  width: 75%;
-}
 html {
   scroll-behavior: smooth;
 }
@@ -14,19 +8,11 @@ html {
   margin: 0 auto;
   width: 90%;
 }
-.container_mobile{
-width: 90%;
-border: 1px red;
-}
+
 .bg-violet {
   background-color: #4236C4;
 }
-.background {
-  background-image: url('/bg-hero.svg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
+
 .button {
   background: linear-gradient(135deg, #4236C4, #4236C4); 
   color: white;
@@ -35,7 +21,7 @@ border: 1px red;
   overflow: hidden;
 }
 
-/* Движущийся блик */
+
 .button::before {
   content: '';
   position: absolute;
