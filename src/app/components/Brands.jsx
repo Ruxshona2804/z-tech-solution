@@ -9,12 +9,13 @@ import intercom from '../../../public/images/brands/intercom.svg'
 import airbnb from '../../../public/images/brands/airbnb.svg'
 import miro from '../../../public/images/brands/miro.svg'
 import uber from '../../../public/images/brands/uber.svg'
+import { useTranslations } from 'next-intl'
 
 const logos = [evernote, slack, intercom, airbnb, miro, uber]
 
 const Brands = () => {
   const trackRef = useRef(null)
-
+const t = useTranslations()
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.to('.brands-track', {
@@ -30,7 +31,7 @@ const Brands = () => {
 
   return (
     <div className='container  w-[90%]  h-[280px] mx-auto md:h-[200px] flex flex-col justify-center items-center gap-8 overflow-hidden'>
-      <p className='text-[20px] text-[#808897] font-[500]'>We're trusted by</p>
+      <p className='text-[20px] text-[#808897] font-[500]'>{t("trust")}</p>
 
       <div ref={trackRef} className='w-full overflow-hidden'>
         <div className='  brands-track flex w-max gap-16'>

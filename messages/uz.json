@@ -1,0 +1,180 @@
+{
+    "navigation": {
+      "about": "Biz haqimizda",
+      "tariffs": "Tariflar",
+      "projects": "Loyihalar",
+      "contacts": "Aloqa"
+    },
+    "cta": {
+    "get_started": "Boshlash"
+  },
+    "slogan": "Goyalarni mahsulotlarga aylantiramiz",
+    "Partner":"Biz bilan hamkorlik qiling — innovatsion strategiyalar va dizayn yechimlarini birgalikda ishlab chiqaylik, bu sizning brendingizni yangi bosqichga olib chiqib, aniq natijalar beradi.",
+
+"trust": "Bizga ishonishadi",
+
+"About":"Biz haqimizda",
+ "Crafting":"Biz to'liq raqamli xizmatlarni taklif qilamiz: dizayndan tortib mobil va veb-ilovalargacha.",
+      "text": " Bizning maqsadimiz — bizneslar va startaplarga tez va sifatli onlayn chiqishga yordam berish, zamonaviy, ishonchli va qulay yechimlar yaratish.",
+      "buttons": {
+        "contact": "Bog'lanish",
+        "tariffs": "Tariflar"
+      },
+
+
+
+      "work_chain": "Ish zanjiri",
+      "Process":"Ish jarayonimiz:",
+      "step1": "Brif va loyiha tahlili: ",
+      "step2": "Dizayn ishlab chiqish: ",
+      "step3": "Sayt ishlab chiqish: ",
+      "step4": "Sayt topshirish: ",
+      "step1_1": "Mijoz bilan onlayn yoki oflayn aloqa qilinadi. Menedjer talablarni yozib oladi va keyin jamoa fikr va tavsiyalar beradi.",
+      "step2_1": "loyiha tasdiqlangach, kerak bo'lsa dizayn bosqichi boshlanadi",
+      "step3_1": "dizayn mijoz tomonidan tasdiqlangach, sayt ishlab chiqilishi boshlanadi",
+      "step4_1": "testdan o'tkazilib, tasdiqlangach, sayt huquqlari mijozga o'tkaziladi. Bizning noyob jihatimiz — ochiqlik."
+    ,
+
+
+
+    
+    
+        "our_pricing": "Bizning narxlarimiz",
+        "view_pricing": "Narxlarimizni ko'rib chiqing",
+        "star_name": "Bosh reja",
+        "custom_name": "Maxsus reja",
+        "standard_name": "Mobil ilovalar",
+        "Popular": "Mashhur",
+        "star_description": "Bosh rejaga bir sahifalik sayt kiradi!",
+        "standard_description": "Tez o'sish uchun startaplar va kichik biznesga mos keladi!",
+        "custom_description": "Sayt uchun kerakli parametrlarni tanlang va narxni bilib oling!",
+        "star_button": "Boshlash",
+        "standard_button": "Boshlash",
+        "custom_button": "Narxni onlayn bilib oling",
+        "for_startups": "Startaplar va kichik biznes uchun",
+        "for_enterprise": "Katta korxonalar va brendlar uchun",
+        "/month":"/oyiga",
+        "features": {
+          "custom_website": "Universal dizayn",
+          "uiux_optimization": "Moslashuvchan (adaptiv) dizayn",
+          "monthly_analytics": "Aloqa formasi",
+          "basic_seo": "Bloklarga animatsiya",
+          "full_service_strategy": "Foydalanuvchi uchun qulay interfeys",
+          "advanced_uiux": "Mahsulotlar bazasi",
+          "custom_app_development": "Aloqa formasi",
+          "ongoing_seo": "To'lov tizimi integratsiyasi"
+        },
+
+   
+
+        
+            "our_projects_button": "Bizning loyihalarimiz",
+            "view_our_projects_heading": "Loyihalarimizni ko'ring",
+            "projects_description": "Pitsa ipsum dolor meat lovers buffalo. Rib fresh black NY rib mushrooms pan garlic pizza.",
+            "E-Commerce": "E-tijorat",
+            "User Experience": "Foydalanuvchi tajribasi",
+            "UI/UX": "UI/UX",
+            "Case Studies": "Amaliy ishlar",
+            "Prototype": "Prototip",
+            "Ecommerce Mobile App": "E-tijorat mobil ilovasi",
+            "Seek our project": "Loyihamizni ko'rib chiqing",
+            "View Project": "Loyihani ko'rish",
+            "AI Powered": "AI tomonidan quvvatlangan",
+            "Finance": "Moliya",
+            "Dashboard": "Boshqaruv paneli",
+            "AI-Powered Finance Dashboard": "AI tomonidan quvvatlangan moliyaviy boshqaruv paneli",
+            "Smart Travel": "Aqlli sayohat",
+            "Booking App": "Bron qilish ilovasi",
+            "Mobile UI": "Mobil UI",
+            "Smart Travel Booking System": "Aqlli sayohat bron qilish tizimi",
+
+
+
+
+
+            
+                "our_rates_button": "Bizning narxlarimiz",
+                "our_client_experiences_heading": "Mijozlarimiz tajribalari",
+                "client_experiences_description": "Pitsa ipsum dolor meat lovers buffalo. Rib fresh black NY rib mushrooms pan garlic pizza.",
+                "emily_rodriguez_testimonial": "Ularning UI/UX dizaynidagi tajribasi bizning raqamli mavjudligimizni o'zgartirdi. Yangi interfeys silliq, intuitiv va foydalanuvchi jalb qilishni sezilarli darajada yaxshiladi.",
+                "emily_rodriguez_name": "Emili Rodriges",
+                "emily_rodriguez_title": "FinEdge kompaniyasining mahsulot menejeri",
+                "james_tuchel_testimonial": "Ular bizning tasavvurimizni tushunishdi va uni benuqson amalga oshirishdi. Ularning strategik yondashuvi tufayli ilovamizning ishlashi va qulayligi sezilarli darajada yaxshilandi.",
+                "james_tuchel_name": "Jeyms Tuxel",
+                "james_tuchel_title": "MoveSmart bosh direktori",
+                "samantha_laurent_testimonial": "Brendingdan veb-ishlab chiqishgacha, ularning jamoasi bizning kutganimizdan oshib ketdi. Tafsilotlarga e'tibor va innovatsion fikrlash ularni ajratib turadi va strategik yondashuvdir.",
+                "samantha_laurent_name": "Samanta Loren",
+                "samantha_laurent_title": "Lume Studio asoschisi",
+                "michael_de_guzman_testimonial": "Ular bilan ishlash juda oson bo'ldi. Ular samarali muloqot qilishdi, muddatlarga rioya qilishdi va dastlabki maqsadlarimizdan oshib ketadigan mahsulotni yetkazib berishdi.",
+                "michael_de_guzman_name": "Maykl De Guzman",
+                "michael_de_guzman_title": "BrightRetail marketing direktori",
+                "rachel_venyya_testimonial_1": "Ular bizga brendimizni chinakam aks ettiruvchi ajoyib va funktsional veb-saytni ishga tushirishga yordam berishdi. Dizayn, tezlik va responsivlik shunchaki mukammal!",
+                "rachel_venyya_name": "Reychel Venyya",
+                "rachel_venyya_title": "NovaTech hammuassisi",
+                "rachel_venyya_testimonial_2": "Ular bizga brendimizni chinakam aks ettiruvchi ajoyib funksional veb-saytni ishga tushirishga yordam berishdi. Dizayn, tezlik va responsivlik shunchaki mukammal!",
+
+
+
+
+
+                
+                    "contact_us_button": "Biz bilan bog'lanish",
+                    "get_in_touch_heading": "Biz bilan bog'laning",
+                    "contact_description": "Pitsa ipsum dolor meat lovers buffalo. Rib fresh black NY rib mushrooms pan garlic pizza.",
+                    "first_name_label": "Ism",
+                    "first_name_placeholder": "Sara",
+                    "last_name_label": "Familiya",
+                    "last_name_placeholder": "Malkova",
+                    "company_name_label": "Kompaniya nomi",
+                    "company_name_placeholder": "Z Tech Solutions LLC",
+                    "message_label": "Loyiha tavsifi",
+                    "message_placeholder": "Xabaringizni bu yerga kiriting.",
+                    "message_hint": "Sizning shikoyat va takliflaringiz kelajakdagi sifatimiz uchun juda foydali.",
+                    "submit_button": "Yuborish",
+                    "ready_to_create_heading": "Yaratishga, qurishga va sotishga tayyormiz.",
+                    "ready_to_achieve_description": "Ko'proq narsaga erishishga tayyormisiz? Biz bilan bog'laning va raqamli biznes sayohatingizni boshlang.",
+                    "see_our_work_button": "Ishlarimizni ko'rish",
+                    "get_in_touch_button": "Bog'lanish",
+
+
+
+
+
+
+
+                    
+                        "footer_description": "Brendingizni yangi cho'qqilarga ko'taradigan o'lchovli natijalarga erishadigan innovatsion strategiyalar va dizayn yechimlarini yaratishda biz bilan hamkorlik qiling.",
+                        "sections_heading": "Bosh sahifa",
+                        "about_us_link": "Biz haqimizda",
+                        "our_service_link": "Tariflar",
+                        "our_work_link": "Loyihalar",
+                        "portfolio_link": "Portfolio",
+                        "contact_us_link": "Veb-ishlab chiqish",
+                        "about_heading": "Veb-dizayn",
+                        "our_mission_link": "Mobil ilovalar",
+                        "our_process_link": "Bizning jarayonimiz",
+                        "our_team_link": "Bizning jamoamiz",
+                        "portfolio_section_heading": "Portfolio",
+                        "project_1_link": "NeoUz",
+                        "project_2_link": "DilbahDairy",
+                        "project_3_link": "Unicummedia",
+                        "support_heading": "Qo'llab-quvvatlash",
+                        "get_help_link": "Yordam olish",
+                        "faq_link": "Ko'p beriladigan savollar",
+                        "careers_link": "Karyera",
+                        "customer_support_link": "Mijozlarni qo'llab-quvvatlash",
+                        "copyright_text": "© Z Tech Solutions 2025, Barcha huquqlar himoyalangan",
+
+
+
+
+
+
+    "footer": {
+      "menu": ["Bosh sahifa", "Biz haqimizda", "Tariflar", "Loyihalar", "Aloqa"],
+      "services": ["Veb-ishlab chiqish", "Veb-dizayn", "Mobil ilovalar"],
+      "projects": ["NeoUz", "DilbahDairy", "Unicummedia"],
+      "social": ["LinkedIn", "Instagram", "Facebook", "Twitter"]
+    }
+  }
+  

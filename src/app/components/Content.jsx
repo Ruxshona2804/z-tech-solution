@@ -4,24 +4,25 @@ import creative from '../../../public/images/content/creative.svg'
 import development from '../../../public/images/content/developement.svg'
 import launch from '../../../public/images/content/launch.svg'
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 const Content = () => {
-
+const t = useTranslations()
     const images = [
-        { src: analysis, alt: 'analysis', title: "1.Analysis with Leads", description: "Pizza ipsum dolor meat lovers buffalo. Pie crust roll mushrooms sautéed deep meat broccoli black. Personal style NY peppers olives ham chicken Philly cheese mozzarella." },
-        { src: creative, alt: 'creative', title: "2.Creative Design", description: "Pizza ipsum dolor meat lovers buffalo. Rib green pan banana mayo green tomatoes burnt pineapple large. Hand and mouth rib sauce." },
-        { src: development, alt: 'development', title: "3.Developement", description: "Pizza ipsum dolor meat lovers buffalo. Sauce banana mouth sausage green rib Chicago. Tomato pork tossed burnt rib red ricotta crust pie pizza." },
-        { src: launch, alt: 'launch', title: "4.Launch the Project", description: "Pizza ipsum dolor meat lovers buffalo. Sautéed pesto mushrooms ricotta pizza anchovies tossed. Pesto meatball beef lot roll pan beef sauce." },
+        { src: analysis, alt: 'analysis', title: "step1", description: "step1_1" },
+        { src: creative, alt: 'creative', title: "step2", description: "step2_1" },
+        { src: development, alt: 'development', title: "step3", description: "step3_1" },
+        { src: launch, alt: 'launch', title: "step4", description: "step4_1" },
 
     ]
 
     return (
         <div className='container   py-16'>
         <div className='text-center mb-10'>
-          <button className='text-sm my-4  button text-white bg-violet rounded-[24px] xl:px-4 xl:py-1 px-6 py-2 mb-3'>Work Chain</button>
-          <h3 className='text-[48px] xl:text-[52px] font-[500] mt-3'>Our Work Process</h3>
+          <button className='text-sm my-4  button text-white bg-violet rounded-[24px] xl:px-4 xl:py-1 px-6 py-2 mb-3'>{t("work_chain")}</button>
+          <h3 className='text-[48px] xl:text-[52px] font-[500] mt-3'>{t("Process")}</h3>
           <p className='text-base text-[#808897] max-w-xl mx-auto mt-3'>
-            Pizza ipsum dolor meat lovers buffalo. Rib fresh black NY rib mushrooms pan garlic pizza.
+             
           </p>
         </div>
       
@@ -40,8 +41,8 @@ const Content = () => {
                 className="rounded-[6px] w-full h-auto aspect-[12/10] object-cover"
               />
               <div className='px-3 py-2'>
-                <h3 className="text-lg font-semibold mb-1">{item.title}</h3>
-                <p className="text-sm text-[#808897]">{item.description}</p>
+                <h3 className="text-lg font-semibold mb-1">{t(item.title)}</h3>
+                <p className="text-sm text-[#808897]">{t(item.description)}</p>
               </div>
             </div>
           ))}

@@ -11,6 +11,7 @@ import daftar from '../../../public/images/responsive/notebook.png'
 import computer from '../../../public/images/responsive/computer.jpg'
 import computer1 from '../../../public/images/responsive/computer1.jpg'
 import telephone from '../../../public/images/responsive/telephone.jpg'
+import { useTranslations } from 'next-intl'
 
 const images = [
   { src: wedding, alt: 'Wedding' },
@@ -28,7 +29,7 @@ const responsiveImages = [
 const Hero = () => {
   const desktopRef = useRef(null)
   const mobileRef = useRef(null)
-
+const t = useTranslations()
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.to('.desktop-slide', {
@@ -57,11 +58,10 @@ const Hero = () => {
        
         <div data-aos="fade-up" className='container w-[90%]  md:h-[320px] flex flex-col items-center justify-center text-center'>
           <h1 className='h-auto w-[358px] md:w-[1000px] text-[36px] md:text-[64px] font-[500] tracking-normal leading-tight'>
-            Empowering Growth Through Digital Innovation
+            {t("slogan")}
           </h1>
           <p className='text-[16px] md:text-[18px] text-[#808897] font-[400] w-[358px] md:w-[600px] mt-4'>
-            Partner with us to craft innovative strategies and design solutions that drive
-            measurable results and elevate your brand to new heights.
+            {t("Partner")}
           </p>
         </div>
 
